@@ -1361,7 +1361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150903084}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.79, y: -0.6, z: 0}
+  m_LocalPosition: {x: 0.65, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2024187087}
@@ -2195,7 +2195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bullet: {fileID: 2384880574753171562, guid: f175f624fdf47d84688f2a1a1184b5be, type: 3}
-  _ship: {fileID: 1150903084}
+  _mermiSpawner: {fileID: 1150903085}
   _PlayerTransform: {fileID: 2024187087}
   _playerSpeed: 50
 --- !u!50 &2024187089

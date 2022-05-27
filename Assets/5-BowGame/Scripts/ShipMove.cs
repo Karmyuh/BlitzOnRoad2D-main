@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShipMove : MonoBehaviour
 {
     [SerializeField] GameObject _bullet;
-    [SerializeField] GameObject _ship;
+    [SerializeField] Transform _mermiSpawner;
     [SerializeField] Transform _PlayerTransform;
     [SerializeField] float _playerSpeed;
     bool _isVerticalActive = true;
@@ -34,7 +34,7 @@ public class ShipMove : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(_bullet, _ship.transform.position, _ship.transform.rotation, transform);
+            Instantiate(_bullet, _mermiSpawner.position, _mermiSpawner.rotation);
         }
     }
 
